@@ -26,3 +26,5 @@ vim .bash_profile
 source .bash_profile
 #1716914750
 vim .bash_profile
+#1716914830
+ls
