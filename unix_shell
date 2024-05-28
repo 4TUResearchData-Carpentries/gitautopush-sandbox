@@ -18,3 +18,5 @@ echo $HISTFILE
 ls
 #1716914339
 echo "This is a test of autopush"
+#1716914585
+cd ~
