@@ -22,3 +22,5 @@ echo "This is a test of autopush"
 cd ~
 #1716914619
 vim .bash_profile
+#1716914656
+source .bash_profile
