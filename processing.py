@@ -25,7 +25,7 @@ def visualize(filename):
     axes2.plot(np.max(data, axis=0))
     axes3.plot(np.min(data, axis=0))
 
-    plt.savefig(f'inflammation{index}.png')
+    # plt.savefig(f'inflammation{index}.png')
     plt.show()
 
 def detect_problems(filename):
