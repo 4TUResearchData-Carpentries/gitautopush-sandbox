@@ -1,0 +1,16 @@
+echo $HISTFILE
+ls
+history
+echo $HISTFILE
+cd ~/devel/
+cd workshop_notes/
+history
+history
+#1716913827
+history
+#1716913842
+history
+#1716913860
+echo $HISTFILE
+#1716914084
+ export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
