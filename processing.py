@@ -32,6 +32,9 @@ def detect_problems(filename):
     """Detect problems in the data"""
     data = np.loadtxt(fname=filename, delimiter=',')
     
+    # Pre-condition check
+    assert data.size > 0, "Dataset should not be empty"
+    
     max_inflammation = np.max(data, axis=0)
     min_inflammation = np.min(data, axis=0)
     
