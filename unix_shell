@@ -47,3 +47,4 @@ ls -F exercise-data/
 cd exercise-data/writing/
 mkdir ./thesis 
 ls 
+mkdir -p ./thesis/project/data 
