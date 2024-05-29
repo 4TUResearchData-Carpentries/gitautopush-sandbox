@@ -160,3 +160,4 @@ bash sorted.sh ./methane.pdb ./octane.pdb
 bash sorted.sh ./octane.pdb ./methane.pdb 
 nano middle.sh 
 bash middle.sh ./octane.pdb 15 5  
+bash middle.sh ./octane.pdb 10 2  
