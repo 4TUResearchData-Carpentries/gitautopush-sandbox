@@ -172,3 +172,4 @@ bash species.sh
 nano species.sh 
 ls
 ls *.dat
+cp *.dat  original-*.dat
