@@ -170,3 +170,4 @@ less basilisk.dat
 nano species.sh
 bash species.sh 
 nano species.sh 
+ls
