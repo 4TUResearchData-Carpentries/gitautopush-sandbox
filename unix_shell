@@ -3,3 +3,4 @@
 tail -f ~/<path-to-repo>/unix_shell | nl -w 3
 tail -f ~/devel/workshop_notes/unix_shell | nl -w 3
 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+echo 'hi'
