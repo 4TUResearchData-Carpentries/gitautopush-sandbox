@@ -127,3 +127,4 @@ head -n 3 alkanes/sorted-lenths.txt
 tail -n 1 alkanes/sorted-lenths.txt 
 tail  alkanes/sorted-lenths.txt 
 # pipelines 
+ls
