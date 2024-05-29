@@ -26,3 +26,4 @@ ls -F  ~/Desktop/shell-lesson-data/
 ls -R ~/Desktop/shell-lesson-data/
 clear
 ls --help
+man ls 
