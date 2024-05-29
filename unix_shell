@@ -108,3 +108,4 @@ cat lengths.txt
 wc -l *.pdb  > lengths.txt 
 cat lengths.txt 
 wc -l *.pdb  >> lengths.txt 
+cat lengths.txt 
