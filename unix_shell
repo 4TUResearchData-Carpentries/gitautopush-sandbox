@@ -112,3 +112,4 @@ cat lengths.txt
 cd ../
 ls
 cat numbers.txt 
+sort numbers.txt 
