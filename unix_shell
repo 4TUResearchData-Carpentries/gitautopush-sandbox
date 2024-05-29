@@ -53,3 +53,5 @@ mkdir -p ./thesis/project/results
 ls -R thesis/
 cd thesis/
  nano 
+nano draft.txt 
+ls
