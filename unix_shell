@@ -68,3 +68,4 @@ ls thesis/
 cd thesis/
 ls
 cp ./quotes.txt ./quoutes-copy.txt
+cd ../
