@@ -27,3 +27,4 @@ ls -R ~/Desktop/shell-lesson-data/
 clear
 ls --help
 man ls 
+# Changing directories
