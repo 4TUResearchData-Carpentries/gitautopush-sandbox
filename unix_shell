@@ -166,3 +166,4 @@ cd ../creatures/
 ls
 cat basilisk.dat 
 ls
+less basilisk.dat 
