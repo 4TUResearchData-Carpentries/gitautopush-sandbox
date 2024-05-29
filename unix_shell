@@ -145,3 +145,4 @@ cat octane.pdb
 nano middle.sh
 cat middle.sh 
 bash middle.sh 
+nano middle.sh 
