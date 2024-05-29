@@ -35,3 +35,4 @@ ls
 cd ../
 cd ./shell-lesson-data/
 ls
+cd ../../
