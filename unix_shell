@@ -45,3 +45,4 @@ ls
 ls exercise-data/
 ls -F exercise-data/
 cd exercise-data/writing/
+mkdir ./thesis 
