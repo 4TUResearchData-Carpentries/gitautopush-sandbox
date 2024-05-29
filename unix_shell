@@ -168,3 +168,4 @@ cat basilisk.dat
 ls
 less basilisk.dat 
 nano species.sh
+bash species.sh 
