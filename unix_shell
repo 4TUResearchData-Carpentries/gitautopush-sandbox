@@ -128,3 +128,4 @@ tail -n 1 alkanes/sorted-lenths.txt
 tail  alkanes/sorted-lenths.txt 
 # pipelines 
 ls
+cd alkanes/
