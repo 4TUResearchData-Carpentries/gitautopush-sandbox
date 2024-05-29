@@ -83,3 +83,4 @@ cd ../
 ls
 ls alkanes/
 ls ./alkanes/*t*ane.pdb
+ls ./alkanes/cu*.pdb
