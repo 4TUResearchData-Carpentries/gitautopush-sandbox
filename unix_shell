@@ -59,3 +59,4 @@ touch ./my-file.txt
 ls
 cd ../
 ls 
+mv ./haiku.txt ./thesis/quotes.txt
