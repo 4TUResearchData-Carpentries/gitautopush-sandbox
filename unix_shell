@@ -116,3 +116,4 @@ sort numbers.txt
 sort -n  numbers.txt 
 ls
 ls alkanes/
+cat alkanes/lengths.txt 
