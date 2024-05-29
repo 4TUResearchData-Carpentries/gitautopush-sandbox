@@ -17,3 +17,4 @@ ls -S
 ls -t 
 ls -tr 
 clear 
+ls ~/Desktop
