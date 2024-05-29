@@ -155,3 +155,4 @@ bash middle.sh ./methane.pdb ./octane.pdb
 nano middle.sh 
 bash middle.sh ./methane.pdb 
 bash middle.sh ./methane.pdb ./octane.pdb 
+nano sorted.sh
