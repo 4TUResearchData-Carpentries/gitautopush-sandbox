@@ -175,3 +175,4 @@ ls *.dat
 cp *.dat  original-*.dat
 nano copier.sh
 bash copier.sh 
+ls 
