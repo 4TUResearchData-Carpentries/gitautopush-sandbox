@@ -37,3 +37,4 @@ cd ./shell-lesson-data/
 ls
 cd ../../
 cd -
+cd 
