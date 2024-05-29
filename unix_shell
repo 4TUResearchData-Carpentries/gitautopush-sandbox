@@ -31,3 +31,4 @@ man ls
 cd ~/Desktop 
 ls 
 cd ~/Desktop/shell-lesson-data/
+ls
