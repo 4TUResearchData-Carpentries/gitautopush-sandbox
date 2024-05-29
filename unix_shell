@@ -111,3 +111,4 @@ wc -l *.pdb  >> lengths.txt
 cat lengths.txt 
 cd ../
 ls
+cat numbers.txt 
