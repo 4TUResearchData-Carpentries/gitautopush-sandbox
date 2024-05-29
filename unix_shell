@@ -66,3 +66,4 @@ ls
 mv ./LittleWomen.txt ./thesis/
 ls thesis/
 cd thesis/
+ls
