@@ -177,3 +177,4 @@ nano copier.sh
 bash copier.sh 
 ls 
 bash -x copier.sh 
+clear
