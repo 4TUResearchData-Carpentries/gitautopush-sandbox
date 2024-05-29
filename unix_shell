@@ -133,3 +133,4 @@ cat lengths.txt
 wc -l cubane.pdb > lengths.txt
 cat lengths.txt 
 wc -l *.pdb > lengths.txt
+cat lengths.txt 
