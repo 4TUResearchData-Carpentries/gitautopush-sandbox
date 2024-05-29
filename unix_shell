@@ -11,3 +11,4 @@ pwd
 ls -F
 ls -l 
 ls -lh  
+clear 
