@@ -14,3 +14,4 @@ ls -lh
 clear 
 ls -a 
 ls -S 
+ls -t 
