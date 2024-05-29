@@ -123,3 +123,4 @@ sort -k 2 alkanes/lengths.txt > ./alkanes/sorted-lenths.txt
 cat ./alkanes/sorted-lenths.txt 
 sort -k 2 alkanes/lengths.txt 
 head -n 1 alkanes/sorted-lenths.txt 
+head -n 3 alkanes/sorted-lenths.txt 
