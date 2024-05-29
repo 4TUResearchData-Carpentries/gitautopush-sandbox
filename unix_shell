@@ -131,3 +131,4 @@ ls
 cd alkanes/
 cat lengths.txt 
 wc -l cubane.pdb > lengths.txt
+cat lengths.txt 
