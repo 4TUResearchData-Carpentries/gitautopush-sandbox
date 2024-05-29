@@ -182,3 +182,4 @@ cd ../../
 nano hello.py
 python --version
 python3 --version
+python3 hello.py 
