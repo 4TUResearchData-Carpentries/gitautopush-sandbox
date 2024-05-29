@@ -150,3 +150,4 @@ bash middle.sh
 nano middle.sh 
 bash middle.sh 
 bash middle.sh ./octane.pdb 
+bash middle.sh ./methane.pdb 
