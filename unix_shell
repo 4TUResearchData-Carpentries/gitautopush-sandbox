@@ -49,3 +49,4 @@ mkdir ./thesis
 ls 
 mkdir -p ./thesis/project/data 
 ls -R thesis/
+mkdir -p ./thesis/project/results 
