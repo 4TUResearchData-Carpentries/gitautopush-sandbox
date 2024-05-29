@@ -19,3 +19,4 @@ ls -tr
 clear 
 ls ~/Desktop
 pwd 
+ls 
