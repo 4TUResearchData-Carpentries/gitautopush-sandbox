@@ -67,3 +67,4 @@ mv ./LittleWomen.txt ./thesis/
 ls thesis/
 cd thesis/
 ls
+cp ./quotes.txt ./quoutes-copy.txt
