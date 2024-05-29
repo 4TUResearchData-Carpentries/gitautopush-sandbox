@@ -162,3 +162,4 @@ nano middle.sh
 bash middle.sh ./octane.pdb 15 5  
 bash middle.sh ./octane.pdb 10 2  
 ./middle.sh 
+cd ../creatures/
