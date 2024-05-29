@@ -77,3 +77,4 @@ clear
 ls
 rm thesis/quotes.txt 
 ls thesis
+rm -r thesis-backup/
