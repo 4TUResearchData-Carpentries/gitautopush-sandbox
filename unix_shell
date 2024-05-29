@@ -102,3 +102,4 @@ wc -l *.pdb  > lengths.txt
 ls 
 cat lengths.txt 
 history > my_hist.txt
+wc -l *.pdb  > ../../lengths.txt 
