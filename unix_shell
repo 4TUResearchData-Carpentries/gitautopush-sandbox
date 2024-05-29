@@ -1,2 +1,4 @@
 
 # Unix Shell
+tail -f ~/<path-to-repo>/unix_shell | nl -w 3
+tail -f ~/devel/workshop_notes/unix_shell | nl -w 3
