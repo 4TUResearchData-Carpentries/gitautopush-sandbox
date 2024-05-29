@@ -51,3 +51,4 @@ mkdir -p ./thesis/project/data
 ls -R thesis/
 mkdir -p ./thesis/project/results 
 ls -R thesis/
+cd thesis/
