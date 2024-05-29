@@ -85,3 +85,4 @@ ls alkanes/
 ls ./alkanes/*t*ane.pdb
 ls ./alkanes/cu*.pdb
 ls ./alkanes/*t?ne.pdb
+ls ./alkanes/*t?n?.pdb
