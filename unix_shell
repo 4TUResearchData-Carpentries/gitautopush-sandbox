@@ -98,3 +98,4 @@ wc cubane.pdb
 wc *.pdb
 wc -l *.pdb
 wc -l 
+wc -l *.pdb  > lengths.txt 
