@@ -16,3 +16,4 @@ ls -a
 ls -S 
 ls -t 
 ls -tr 
+clear 
