@@ -94,3 +94,4 @@ clear
 ls 
 cd alkanes/
 ls
+wc cubane.pdb 
