@@ -76,3 +76,4 @@ ls -R
 clear
 ls
 rm thesis/quotes.txt 
+ls thesis
