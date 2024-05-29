@@ -42,3 +42,4 @@ cd -
 clear
 # Creating directories
 ls
+ls exercise-data/
