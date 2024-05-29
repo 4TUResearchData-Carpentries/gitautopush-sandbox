@@ -95,3 +95,4 @@ ls
 cd alkanes/
 ls
 wc cubane.pdb 
+wc *.pdb
