@@ -142,3 +142,4 @@ clear
 # Scripts
 ls
 cat octane.pdb 
+nano middle.sh
