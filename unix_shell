@@ -71,3 +71,4 @@ cp ./quotes.txt ./quoutes-copy.txt
 cd ../
 cp -r thesis/ ./thesis-backup
 ls
+ls -F
