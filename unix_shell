@@ -58,3 +58,4 @@ ls
 touch ./my-file.txt
 ls
 cd ../
+ls 
