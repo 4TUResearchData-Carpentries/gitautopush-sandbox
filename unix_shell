@@ -12,3 +12,4 @@ ls -F
 ls -l 
 ls -lh  
 clear 
+ls -a 
