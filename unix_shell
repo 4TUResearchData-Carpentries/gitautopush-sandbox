@@ -30,3 +30,4 @@ man ls
 # Changing directories
 cd ~/Desktop 
 ls 
+cd ~/Desktop/shell-lesson-data/
