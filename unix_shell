@@ -82,3 +82,4 @@ ls
 cd ../
 ls
 ls alkanes/
+ls ./alkanes/*t*ane.pdb
