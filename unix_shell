@@ -55,3 +55,4 @@ cd thesis/
  nano 
 nano draft.txt 
 ls
+touch ./my-file.txt
