@@ -22,3 +22,4 @@ pwd
 ls 
 ls ~/Desktop
 ls ~/Desktop/shell-lesson-data/
+ls -F  ~/Desktop/shell-lesson-data/
