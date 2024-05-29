@@ -43,3 +43,4 @@ clear
 # Creating directories
 ls
 ls exercise-data/
+ls -F exercise-data/
