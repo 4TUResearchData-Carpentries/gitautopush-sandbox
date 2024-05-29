@@ -8,3 +8,4 @@ history
 clear 
 ls 
 pwd 
+ls -F
