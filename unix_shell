@@ -129,3 +129,4 @@ tail  alkanes/sorted-lenths.txt
 # pipelines 
 ls
 cd alkanes/
+cat lengths.txt 
