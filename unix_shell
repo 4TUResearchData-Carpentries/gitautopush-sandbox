@@ -178,3 +178,4 @@ bash copier.sh
 ls 
 bash -x copier.sh 
 clear
+cd ../../
