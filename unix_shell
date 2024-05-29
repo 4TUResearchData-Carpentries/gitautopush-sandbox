@@ -89,3 +89,4 @@ ls ./alkanes/*t?n?.pdb
 ls ./alkanes/*.pdb
 clear
 history
+clear
