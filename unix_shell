@@ -143,3 +143,4 @@ clear
 ls
 cat octane.pdb 
 nano middle.sh
+cat middle.sh 
