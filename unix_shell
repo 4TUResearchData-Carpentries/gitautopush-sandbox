@@ -28,3 +28,4 @@ clear
 ls --help
 man ls 
 # Changing directories
+cd ~/Desktop 
