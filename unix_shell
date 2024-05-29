@@ -79,3 +79,5 @@ rm thesis/quotes.txt
 ls thesis
 rm -r thesis-backup/
 ls
+cd ../
+ls
