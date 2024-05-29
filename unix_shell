@@ -60,3 +60,4 @@ ls
 cd ../
 ls 
 mv ./haiku.txt ./thesis/quotes.txt
+ls
