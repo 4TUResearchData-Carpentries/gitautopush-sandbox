@@ -173,3 +173,4 @@ nano species.sh
 ls
 ls *.dat
 cp *.dat  original-*.dat
+nano copier.sh
