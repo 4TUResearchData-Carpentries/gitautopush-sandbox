@@ -179,3 +179,4 @@ ls
 bash -x copier.sh 
 clear
 cd ../../
+nano hello.py
