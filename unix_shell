@@ -165,3 +165,4 @@ bash middle.sh ./octane.pdb 10 2
 cd ../creatures/
 ls
 cat basilisk.dat 
+ls
