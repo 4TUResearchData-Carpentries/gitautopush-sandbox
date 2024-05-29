@@ -33,3 +33,4 @@ ls
 cd ~/Desktop/shell-lesson-data/
 ls
 cd ../
+cd ./shell-lesson-data/
