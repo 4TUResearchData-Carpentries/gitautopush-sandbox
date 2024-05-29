@@ -130,3 +130,4 @@ tail  alkanes/sorted-lenths.txt
 ls
 cd alkanes/
 cat lengths.txt 
+wc -l cubane.pdb > lengths.txt
