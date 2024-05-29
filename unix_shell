@@ -57,3 +57,4 @@ nano draft.txt
 ls
 touch ./my-file.txt
 ls
+cd ../
