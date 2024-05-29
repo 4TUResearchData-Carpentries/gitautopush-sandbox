@@ -72,3 +72,4 @@ cd ../
 cp -r thesis/ ./thesis-backup
 ls
 ls -F
+ls -R
