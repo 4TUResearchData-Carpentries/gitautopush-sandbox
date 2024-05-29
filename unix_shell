@@ -136,3 +136,4 @@ wc -l *.pdb > lengths.txt
 cat lengths.txt 
 sort -n lengths.txt | head -n 1
 wc -l *.pdb | sort -n | head -n 1
+ls
