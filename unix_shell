@@ -114,3 +114,4 @@ ls
 cat numbers.txt 
 sort numbers.txt 
 sort -n  numbers.txt 
+ls
