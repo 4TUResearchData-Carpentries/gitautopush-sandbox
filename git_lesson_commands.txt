@@ -1,0 +1,3 @@
+==> /h//.bash_history <==
+ls
+nano mars.txt
