@@ -70,3 +70,8 @@ git checkout main
 git log --oneline
 git add .
 git commit -m 'added more description of mars'
+git revert 5cab009
+git log --oneline
+touch weather_data.csv space_area.csv results/experiment.out
+touch results/experiment.out
+git status
