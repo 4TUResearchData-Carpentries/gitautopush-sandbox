@@ -1,4 +1,1 @@
-==> /h//.bash_history <==
 
-nano /c/Users/agarzondiaz/Documents/SCW_may/workshop_notes/git_lesson_commands.txt 
-gitautopush --sleep 10 .
