@@ -15,3 +15,18 @@ git init
 git config --global user.name "Alex"
 git config --global user.email "j.a.garzondiaz@tudelft.nl"
 git checkout -b main
+nano mars.txt
+git status
+git add mars.txt 
+git commit 
+git status
+git log
+git status
+git diff 
+git diff mars.txt
+git add mars.txt
+git commit -m "added comment on weather and color"
+git status
+git log
+git config --global core.editor "nano -w"
+git status
