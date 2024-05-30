@@ -91,3 +91,25 @@ eval "$(ssh-agent -s)"
 ssh-add /h//.ssh/id_ed25519
 ls ~
 ls -a ~
+nano ~/.bash_profile
+nano ~/.bashrc
+git remote add origin git@github.com:alextremo0205/planets.git
+git remote -v
+git push origin main
+git status
+git fetch
+git fetch
+git pull
+git branch --set-upstream-to=origin/main main
+git pull
+cd ..
+git clone git@github.com:alextremo0205/fruits.git
+ls
+cd fruits/
+git remote -v
+git status
+git add oranges.txt 
+git commit -m 'added oranges'
+git push
+ls ~
+ls -a ~
