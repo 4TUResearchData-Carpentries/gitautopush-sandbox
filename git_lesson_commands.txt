@@ -75,3 +75,14 @@ git log --oneline
 touch weather_data.csv space_area.csv results/experiment.out
 touch results/experiment.out
 git status
+nano .gitignore
+git status
+git add .gitignore
+git commit -m 'added .gitignore'
+git status
+git status
+git add .
+git status
+git commit -m 'changed ignoring only for plots'
+ssh-keygen -t ed25519-C "j.a.garzondiaz@tudelft.nl"
+ssh-keygen -t ed25519 -C "j.a.garzondiaz@tudelft.nl"
