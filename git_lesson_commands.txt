@@ -86,3 +86,4 @@ git status
 git commit -m 'changed ignoring only for plots'
 ssh-keygen -t ed25519-C "j.a.garzondiaz@tudelft.nl"
 ssh-keygen -t ed25519 -C "j.a.garzondiaz@tudelft.nl"
+cat /h//.ssh/id_ed25519.pub
