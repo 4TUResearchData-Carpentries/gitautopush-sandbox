@@ -30,3 +30,43 @@ git status
 git log
 git config --global core.editor "nano -w"
 git status
+nano mars.txt
+git status
+git add mars.txt
+git commit
+git log
+git log mars.txt
+git log
+git log mars.txt
+git log
+git log --oneline
+git log --oneline --graph
+git log --oneline
+git diff HEAD mars.txt
+git diff HEAD mars.txt
+git diff mars.txt
+git diff HEAD~1 mars.txt
+git diff HEAD~2 mars.txt
+git diff HEAD~3 mars.txt
+git show HEAD~1
+git show 9be741620c731c64e306cbce7c3d0fe1ffee31b7
+git show 9be7516
+git show 9be7416
+git status
+git diff mars.txt
+git checkout HEAD mars.txt
+git status
+git diff mars.txt
+git add .
+git status
+git reset
+git status
+git diff
+git checkout HEAD mars.txt
+git log --oneline
+git checkout 9be7416
+git log --oneline
+git checkout main
+git log --oneline
+git add .
+git commit -m 'added more description of mars'
