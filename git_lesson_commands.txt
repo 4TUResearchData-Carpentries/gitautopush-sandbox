@@ -2,3 +2,16 @@
 conda deactivate
 cd Documents/SCW_may/workshop_notes/
 conda activate SWC
+ls
+git init
+ls
+ls -a 
+rm -r .git
+ls -a
+mkdir planets
+ls
+cd planets/
+git init
+git config --global user.name "Alex"
+git config --global user.email "j.a.garzondiaz@tudelft.nl"
+git checkout -b main
