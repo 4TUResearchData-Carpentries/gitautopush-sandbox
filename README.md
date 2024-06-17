@@ -1,9 +1,7 @@
 # Notes of the Software Carpentry Workshop 
 
-**When** DD-DD Mm YEAR  
-**Where** Host institution
-
-_To whom this may concern._
+**When** 20-21 Jun 2024 
+**Where** VU Amsterdam
 
 #### Content
 
@@ -22,8 +20,8 @@ So, referring to these notes may be more helpful and effective than browsing the
 #### Workshop documents
 You are also encouraged to bookmark these URLs for an easy navigation during the workshop:
 
-1. Carpentries announcement: **replace this text with a link to the workshop announcement (typically following the Carpentries template)**
-2. Collaborative document: **replace this text with a link to, typically, a public Google Doc or a pad**
-3. This page: https://github.com/4TUResearchData-Carpentries/workshop_notes/tree/YYMM-WHICH-WHERE **edit the workshop label YYMM-WHICH-WHERE as applicable**
+1. Carpentries announcement: https://ubvu.github.io/2024-06-20-ldev-amsterdam/
+2. Collaborative document: https://docs.google.com/document/d/11Ugq4uDbBvx1YnNdaVJajFRWr21xTQ31vD72UATHOB8
+3. This page: https://github.com/4TUResearchData-Carpentries/workshop_notes/tree/2406-LDEV-VU
 
 
