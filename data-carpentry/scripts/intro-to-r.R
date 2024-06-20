@@ -77,11 +77,19 @@ print(filtered_rooms)
 
 # create the following vector:
 
-rooms <- c(1,2,1,1,NA,3,1,3,2,1,1,8,3,1,NA,1)
+rooms <- c(1, 2, 1, 1, NA, 3, 1, 3, 2, 1, 1, 8, 3, 1, NA, 1)
 
 # use the function median() to calculate the median of
   # of the rooms vector
 
+median(x = rooms, na.rm = T)
+median(rooms, T)
+median(na.rm = T, x = rooms)
+
 # Use R to figure out how many households in the set
   # use more than 2 rooms for sleeping
 
+rooms_above_2 <- rooms[rooms > 2]
+rooms_above_2 <- na.omit(rooms_above_2)
+length(rooms_above_2)
+rooms_above_2
