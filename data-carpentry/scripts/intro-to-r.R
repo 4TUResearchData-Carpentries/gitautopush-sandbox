@@ -53,4 +53,11 @@ class(tricky)
 ## Subsetting a vector
 
 print(hh_members[2])
-print(wall_type[-1])
+print(wall_type[1])
+print(wall_type[c(1,2)])
+
+hh_members>5
+
+hh_members_filtered <- hh_members[hh_members>5]
+print(hh_members_filtered)
+
