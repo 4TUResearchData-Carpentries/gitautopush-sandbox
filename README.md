@@ -15,7 +15,7 @@ During each lesson, these commands are continuously appended to a file whose nam
 Consider that instructors may not follow the on-line lesson material verbatim.  
 So, referring to these notes may be more helpful and effective than browsing the Carpentries lesson material.  
 2. In the list of files above, bring up the file of your lesson upon clicking _exactly on the file name_ (hence not anywhere else in the line).
-  * The R script of the episode **Introduction to R** (Peter) is in [data-carpentry/scripts/intro-r.R](/data-carpentry/scripts/intro-r.R)
+  * The R script of the episode **Introduction to R** (Peter) is in [data-carpentry/scripts/intro-to-r.R](/data-carpentry/scripts/intro-to-r.R)
   * The R script of the episode **Starting with Data** (Bjorn/Eduard) is [data-carpentry/scripts/start-data.R](/data-carpentry/scripts/start-data.R)
   * The R script of the episode **Data wrangling** (Eduard) is [data-carpentry/scripts/data-wrangling.R](/data-carpentry/scripts/data-wrangling.R)
   * The Quarto document of the episode **Quarto and data viz** (Bjorn) is [data-carpentry/documents/awesome-report.qnd](/data-carpentry/documents/awesome-report.qmd)
