@@ -22,3 +22,8 @@ glimpse(interviews)
 
 ## Subsetting data frames
 
+interviews[1, 1] # first row, first column
+interviews[1, 6] # first row, sixth column
+interviews[[2]] # column 2 as vector
+interviews[2] # column 2 as tibble
+interviews[1,] # row 1
