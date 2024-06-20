@@ -2,7 +2,7 @@
 library(tidyverse)
 library(here)
 
-interviews <- read_csv(here("data/SAFI_clean.csv"))
+interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
 read.csv("data/SAFI_clean.csv")
 
 view(interviews)
