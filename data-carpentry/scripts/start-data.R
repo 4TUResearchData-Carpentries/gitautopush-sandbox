@@ -63,4 +63,3 @@ interviews_last <- interviews[n_rows,]
 interviews_middle <- interviews[median(1:n_rows), ]
 # Combine nrow() with the - notation to reproduce the behavior of head(interviews), keeping just the first through 6th rows of the interviews dataset.
 
-# test gitautopush
