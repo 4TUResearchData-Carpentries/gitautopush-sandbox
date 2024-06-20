@@ -50,3 +50,5 @@ class(num_logical)
 class(char_logical)
 class(tricky)
 
+## Subsetting
+
