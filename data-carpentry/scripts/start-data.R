@@ -15,5 +15,10 @@ ncol(interviews) # number of columns
 
 tail(interviews) # last 6 rows
 
-names
+names(interviews) # column names
+str(interviews) # structure
+summary(interviews)
+glimpse(interviews)
+
+## Subsetting data frames
 
