@@ -30,5 +30,9 @@ interviews[1,] # row 1
 interviews[,1]
 interviews[[2]]
 interviews["memb_assoc"]
+interviews$memb_assoc # index memb_assoc variable
 
 head_interviews <- interviews[1:6,]
+interviews[-1,]
+interviews[-c(7:131),] # show first 6 rows
+
