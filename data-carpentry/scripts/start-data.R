@@ -30,3 +30,5 @@ interviews[1,] # row 1
 interviews[,1]
 interviews[[2]]
 interviews["memb_assoc"]
+
+head_interviews <- interviews[1:6,]
