@@ -63,5 +63,12 @@ print(hh_members_filtered)
 
 ## Missing values
 
-
+rooms <- c( 2 , 4 , NA , 4 )
+mean(rooms)  
+mean(rooms,na.rm=TRUE)  
+filtered_rooms <- rooms[is.na(rooms)]
+print(filtered_rooms)
+filtered_rooms <- rooms[!is.na(rooms)]
+print(filtered_rooms)
+filtered_rooms <- rooms[complete.cases(rooms)]
 
