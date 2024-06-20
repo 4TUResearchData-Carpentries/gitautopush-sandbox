@@ -52,5 +52,5 @@ class(tricky)
 
 ## Subsetting a vector
 
-hh_members[2]
-
+print(hh_members[2])
+print(wall_type[-1])
