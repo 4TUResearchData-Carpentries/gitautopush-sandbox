@@ -52,7 +52,7 @@ n_rows <- nrow(interviews)
 # Pull out that last row using nrow() instead of the row number.
 interviews[n_rows,]
 # Create a new tibble (interviews_last) from that last row.
-# 
+interviews_last <- interviews[n_rows,]
 # Using the number of rows in the interviews dataset that
 # you found in question 2, extract the row that is in the
 # middle of the dataset. Store the content of this middle
