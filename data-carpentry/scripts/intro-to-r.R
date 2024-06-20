@@ -29,4 +29,6 @@ pi_rounded <- round(pi,digits=2)
 print(pi_rounded)
 pi_rounded <- round(pi)
 
+## Vectors
+
 
