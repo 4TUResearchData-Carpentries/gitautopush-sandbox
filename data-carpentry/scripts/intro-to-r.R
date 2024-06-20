@@ -71,4 +71,4 @@ print(filtered_rooms)
 filtered_rooms <- rooms[!is.na(rooms)]
 print(filtered_rooms)
 filtered_rooms <- rooms[complete.cases(rooms)]
-
+print(filtered_rooms)
