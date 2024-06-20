@@ -21,9 +21,12 @@ r_height = 10
 r_area <- r_width * r_height
 print(r_area)
 
-## Function
+## Functions
 
 a <- sqrt(4)
 pi <- 3.1415926
 pi_rounded <- round(pi,digits=2)
 print(pi_rounded)
+pi_rounded <- round(pi)
+
+
