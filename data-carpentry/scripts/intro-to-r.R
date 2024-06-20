@@ -71,6 +71,7 @@ print(filtered_rooms)
 filtered_rooms <- rooms[!is.na(rooms)]
 print(filtered_rooms)
 filtered_rooms <- rooms[complete.cases(rooms)]
+print(filtered_rooms)
 
 ## Exercise
 
@@ -83,3 +84,4 @@ rooms <- c(1,2,1,1,NA,3,1,3,2,1,1,8,3,1,NA,1)
 
 # Use R to figure out how many households in the set
   # use more than 2 rooms for sleeping
+
