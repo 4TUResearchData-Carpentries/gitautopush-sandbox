@@ -50,5 +50,7 @@ class(num_logical)
 class(char_logical)
 class(tricky)
 
-## Subsetting
+## Subsetting a vector
+
+hh_members[2]
 
