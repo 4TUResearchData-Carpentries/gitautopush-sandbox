@@ -31,4 +31,8 @@ pi_rounded <- round(pi)
 
 ## Vectors
 
+hh_members <- c(3,5,6,3,8,2,4)
+wall_type <- c('muddaub','burntbricks','sunbricks')
+length(hh_members)
+
 
