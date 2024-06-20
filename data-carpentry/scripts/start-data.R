@@ -27,3 +27,5 @@ interviews[1, 6] # first row, sixth column
 interviews[[2]] # column 2 as vector
 interviews[2] # column 2 as tibble
 interviews[1,] # row 1
+interviews[,1]
+interviews[[2]]
