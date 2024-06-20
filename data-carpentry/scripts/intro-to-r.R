@@ -32,7 +32,20 @@ pi_rounded <- round(pi)
 ## Vectors
 
 hh_members <- c(3,5,6,3,8,2,4)
-wall_type <- c('muddaub','burntbricks','sunbricks')
+wall_type <- c("muddaub","burntbricks","sunbricks")
 length(hh_members)
+str(wall_type)
+class(wall_type)
+logical <- c(TRUE,TRUE,FALSE)
 
+## Exercise
 
+num_char <- c(1, 2, 3, "a")
+num_logical <- c(1, 2, 3, TRUE)
+char_logical <- c("a", "b", "c", TRUE)
+tricky <- c(1, 2, 3, "4")
+
+class(num_char)
+class(num_logical)
+class(char_logical)
+class(tricky)
