@@ -37,18 +37,30 @@ interviews[-1,]
 interviews[-c(7:131),] # show first 6 rows
 
 
-# Create a tibble (interviews_100) containing only the data in row 100 of the interviews dataset.
+# Create a tibble (interviews_100) containing only
+# the data in row 100 of the interviews dataset.
 # 
-# Now, continue using interviews for each of the following activities:
+# Now, continue using interviews for each of the
+# following activities:
 #   
-#   Notice how nrow() gave you the number of rows in the tibble?
+# Notice how nrow() gave you the number of rows in the tibble?
 #   
-#   Use that number to pull out just that last row in the tibble.
-# Compare that with what you see as the last row using tail() to make sure it’s meeting expectations.
+# Use that number to pull out just that last row in the tibble.
+# Compare that with what you see as the last row using tail()
+  # to make sure it’s meeting expectations.
+# 
 # Pull out that last row using nrow() instead of the row number.
+# 
 # Create a new tibble (interviews_last) from that last row.
 # 
-# Using the number of rows in the interviews dataset that you found in question 2, extract the row that is in the middle of the dataset. Store the content of this middle row in an object named interviews_middle. (hint: This dataset has an odd number of rows. Use the median() function and what you’ve learned about sequences in R to extract the middle row!)
+# Using the number of rows in the interviews dataset that
+# you found in question 2, extract the row that is in the
+# middle of the dataset. Store the content of this middle
+# row in an object named interviews_middle.
+# (hint: This dataset has an odd number of rows.
+# Use the median() function and what you’ve learned
+# about sequences in R to extract the middle row!)
+# 
 # Combine nrow() with the - notation to reproduce the behavior of head(interviews), keeping just the first through 6th rows of the interviews dataset.
 
 
