@@ -60,7 +60,7 @@ interviews_last <- interviews[n_rows,]
 # (hint: This dataset has an odd number of rows.
 # Use the median() function and what you’ve learned
 # about sequences in R to extract the middle row!)
-# 
+interviews_middle <- interviews[median(1:n_rows), ]
 # Combine nrow() with the - notation to reproduce the behavior of head(interviews), keeping just the first through 6th rows of the interviews dataset.
 
 
