@@ -125,4 +125,6 @@ library(lubridate)
 dates <- interviews$interview_date # extract the interview_date column
 str(dates)
 interviews$day <- day(dates) # create day column from dates
+interviews$month <- month(dates) # create month column from dates
+
 
