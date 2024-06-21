@@ -73,4 +73,11 @@ percent_wall_type <- interviews_plotting %>%
   mutate(percent = (n / sum(n)) * 100) %>% 
   ungroup()
 
+percent_wall_type %>% 
+  ggplot(aes(
+    x = village, 
+    y = percent, 
+    fill = respondent_wall_type)
+  ) +
+  geom_bar()
 
