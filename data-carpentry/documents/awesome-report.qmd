@@ -20,8 +20,11 @@ The dataset.
 ## Materials and methods
 
 The SAFI dataset has the following variables:
+
 - village
-- interview_data
+  + name of village
+- interview_date
+  * date of the interview
 - no_members
 - years_liv
 
