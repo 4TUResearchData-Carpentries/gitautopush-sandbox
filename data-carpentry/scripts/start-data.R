@@ -105,6 +105,12 @@ memb_assoc <- as.factor(memb_assoc) # convert into factor
 plot(memb_assoc) # bar plot with NA / undetermined respondents
 
 
+# Exercise ----------------------------------------------------------------
+
+# 1. replace first letter with capital letter
+memb_assoc <- fct_recode(memb_assoc,
+                         No = "no", Yes = "yes",
+                         Undetermined = "undetermined")
 
 
 
