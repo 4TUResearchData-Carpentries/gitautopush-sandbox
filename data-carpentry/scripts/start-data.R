@@ -63,4 +63,7 @@ interviews_last <- interviews[n_rows,]
 interviews_middle <- interviews[median(1:n_rows), ]
 # Combine nrow() with the - notation to reproduce the behavior of head(interviews), keeping just the first through 6th rows of the interviews dataset.
 
-# good morning
+
+# Factors -----------------------------------------------------------------
+
+respondent_floor_type <- factor(c("earth", "cement", "cement", "earth")) # create a short factor
