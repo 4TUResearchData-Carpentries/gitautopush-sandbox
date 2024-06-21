@@ -80,4 +80,5 @@ respondent_floor_type # after renaming
 # factor is unordered, but we can make an ordinal variable out of it
 respondent_floor_type <- factor(respondent_floor_type,
                                 ordered = TRUE)
+respondent_floor_type # after setting it as ordered variable
 
