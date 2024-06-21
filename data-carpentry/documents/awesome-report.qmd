@@ -51,7 +51,8 @@ Here are my favourite variables:
 interviews %>%
   filter(!is.na(memb_assoc)) %>% # remove NAs
   group_by(village, memb_assoc) %>% 
-  summarise(mean_no_membrs = mean(no_membrs))
+  summarise(mean_no_membrs = mean(no_membrs)) %>% 
+  knitr::kable()
 ```
 
 
