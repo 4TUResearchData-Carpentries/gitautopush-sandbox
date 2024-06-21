@@ -29,3 +29,13 @@ The SAFI dataset has the following variables:
 - no_members
 - years_liv
 
+Here are my favourite variables:
+
+1. no_members
+2. village
+3. years_liv
+
+
+
+
+
