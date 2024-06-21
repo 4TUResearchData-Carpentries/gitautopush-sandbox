@@ -25,6 +25,7 @@ The SAFI dataset has the following variables:
   + name of village
 - interview_date
   * date of the interview
+    + self-explanatory
 - no_members
 - years_liv
 
