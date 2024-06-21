@@ -16,3 +16,13 @@ just filler because I need to show how line breaks work.
 
 Oh yea, we should talk about SAFI.   
 The dataset.
+
+## Materials and methods
+
+The SAFI dataset has the following variables:
+
+- village
+- interview_data
+- no_members
+- years_liv
+
