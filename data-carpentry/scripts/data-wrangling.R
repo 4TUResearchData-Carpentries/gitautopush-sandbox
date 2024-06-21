@@ -49,6 +49,14 @@ interviews3 <- select(filter(interviews, village == "Chirodzo"),
 interviews3_pipe <- interviews %>% # first we take the dataframe
   filter(village == "Chirodzo") %>% # then we filter on village and send it forward
   select(village:respondent_wall_type) # finally we select the columns
+
+
+# Exercise 1 --------------------------------------------------------------
+
+# subset the interviews data to include interviews where respondents 
+# were members of an irrigation association (memb_assoc);
+# retain only the columns affect_conflicts, liv_count, and no_meals
+
   
   
 
