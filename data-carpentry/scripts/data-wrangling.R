@@ -34,5 +34,5 @@ filter(interviews, village == "Chirodzo" | village == "Ruaca") # filter observat
 
 ## What if we want to select and filter at the same time?
 ## We can use multiple steps
-interviews2 <- filter(interviews, village == "Chirodzo")
+interviews2 <- filter(interviews, village == "Chirodzo") # we make a new dataframe to filter on village
 
