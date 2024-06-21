@@ -35,4 +35,10 @@ filter(interviews, village == "Chirodzo" | village == "Ruaca") # filter observat
 ## What if we want to select and filter at the same time?
 ## We can use multiple steps
 interviews2 <- filter(interviews, village == "Chirodzo") # we make a new dataframe to filter on village
+interviews3 <- select(interviews2, village:respondent_wall_type) # next, we select a number of columns from the new dataframe
+
+## another option is to nest functions:
+interviews3 <- select(filter(interviews, village == "Chirodzo"),
+                      village:respondent_wall_type) ## downsides of nesting: difficult to read
+# need to consider the order (R evaluates from the inside out: here first filtering, then selecting)
 
