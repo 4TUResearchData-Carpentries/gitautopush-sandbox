@@ -76,7 +76,8 @@ percent_wall_type %>%
     y = percent, 
     fill = respondent_wall_type)
   ) +
-  geom_col()
+  geom_col() +
+  theme_bw()
 ```
 
 I can refer to my table (@tbl-my-first-table) and figure (@fig-my-first-plot) in the text.
