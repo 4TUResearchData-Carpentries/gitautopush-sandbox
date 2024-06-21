@@ -48,6 +48,7 @@ Here are my favourite variables:
 ```{r}
 #| label: tbl-my-first-table
 #| echo: false
+#| message: false
 interviews %>%
   filter(!is.na(memb_assoc)) %>% # remove NAs
   group_by(village, memb_assoc) %>% 
