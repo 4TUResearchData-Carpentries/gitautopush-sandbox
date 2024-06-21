@@ -70,3 +70,8 @@ respondent_floor_type <- factor(c("earth", "cement", "cement", "earth")) # creat
 # R will assign 1 to "cement" and 2 to "earth" (alphabetically):
 # let's have a look:
 levels(respondent_floor_type)
+respondent_floor_type
+respondent_floor_type <- factor(respondent_floor_type,
+                                levels = c("earth", "cement")) # reorder the levels
+
+
