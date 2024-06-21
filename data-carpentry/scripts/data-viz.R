@@ -54,5 +54,16 @@ interviews_plotting %>%
 
 interviews_plotting %>% 
   ggplot(aes(x = village, y = rooms)) +
-    geom_violin()
+    geom_violin(fill = "red") +
+    geom_boxplot(
+      width = 0.2
+    )
+
+
+## Bar plots
+interviews_plotting %>% 
+  ggplot(aes(x = respondent_wall_type)) +
+    geom_bar(aes(fill = village), position = "dodge")
+  
+
 
