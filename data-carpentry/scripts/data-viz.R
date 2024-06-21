@@ -88,3 +88,5 @@ percent_wall_type %>%
     fill = respondent_wall_type)
   ) +
   geom_col()
+
+ggsave(here("my-first-plot.png"), width = 8, height = 6, dpi = 300)
