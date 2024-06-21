@@ -84,4 +84,7 @@ interviews_total_meals <- interviews %>%
   select(village, total_meals)
 
 
+# Split-apply-combine and the summarize() function ------------------------
+
+
 
