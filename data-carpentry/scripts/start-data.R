@@ -82,3 +82,8 @@ respondent_floor_type <- factor(respondent_floor_type,
                                 ordered = TRUE)
 respondent_floor_type # after setting it as ordered variable
 
+## Converting factors
+as.character(respondent_floor_type) # convert it to character vector
+# converting factors to numeric vectors should be done in steps:
+year_fct
+
