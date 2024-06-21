@@ -42,3 +42,7 @@ interviews3 <- select(filter(interviews, village == "Chirodzo"),
                       village:respondent_wall_type) ## downsides of nesting: difficult to read
 # need to consider the order (R evaluates from the inside out: here first filtering, then selecting)
 
+## more recent addition to R are pipes: %>% (part of the magrittr package in tidyverse)
+## pipes let you take the output of one funtion to the next function
+## shortcut: Ctrl + Shift + M and for Mac: Cmd + Shift + M
+
