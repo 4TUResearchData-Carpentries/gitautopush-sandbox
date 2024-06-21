@@ -83,3 +83,5 @@ interviews_total_meals <- interviews %>%
   filter(total_meals > 20) %>% 
   select(village, total_meals)
 
+
+
