@@ -111,7 +111,9 @@ plot(memb_assoc) # bar plot with NA / undetermined respondents
 memb_assoc <- fct_recode(memb_assoc,
                          No = "no", Yes = "yes",
                          Undetermined = "undetermined")
-plot(memb_assoc
+plot(memb_assoc)
+
+# 2. change the order of the categories in the plot
 
 
 
