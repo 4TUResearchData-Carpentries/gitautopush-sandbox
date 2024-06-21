@@ -11,6 +11,8 @@ library(here)
 interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
 ```
 
+
+
 # Title
 ## Heading
 ### Subheading
@@ -44,13 +46,12 @@ Here are my favourite variables:
 
 ## Results
 
+
+
 ```{r}
 interviews %>%
   filter(!is.na(memb_assoc)) %>% # remove NAs
   group_by(village, memb_assoc) %>% 
   summarise(mean_no_membrs = mean(no_membrs))
 ```
-
-
-
 
