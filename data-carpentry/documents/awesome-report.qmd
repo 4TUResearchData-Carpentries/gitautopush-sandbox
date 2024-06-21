@@ -79,7 +79,7 @@ percent_wall_type %>%
   geom_col()
 ```
 
-I can refer to my table (@tbl-my-first-table) and figure (@fig-my-first-figure) in the text.
+I can refer to my table (@tbl-my-first-table) and figure (@fig-my-first-plot) in the text.
 
 
 
