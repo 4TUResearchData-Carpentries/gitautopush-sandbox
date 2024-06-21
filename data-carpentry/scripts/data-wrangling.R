@@ -23,5 +23,5 @@ filter(interviews, village == "Chirodzo") # filter observations where village na
 
 filter(interviews, village == "Chirodzo" &
          rooms > 1 &
-         no_meals > 2) # filter observations with 
+         no_meals > 2) # filter observations with the "AND" operator > output dataframe satisfies ALL conditions
 
