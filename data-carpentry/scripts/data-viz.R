@@ -15,6 +15,22 @@ interviews_plotting %>%
   ggplot(aes(x = no_membrs, y = number_items)) +
     geom_jitter(
       width = 0.2,
-      height = 0.2
+      height = 0.2,
+      alpha = 0.3,
+      colour = "#000" # add colour to points
     )
+
+# map colour to aes
+interviews_plotting %>% 
+  ggplot(aes(
+    x = no_membrs, 
+    y = number_items, 
+    colour = village)) +
+  geom_jitter(
+    width = 0.2,
+    height = 0.2,
+    alpha = 0.6
+  )
+
+
 
