@@ -114,7 +114,8 @@ memb_assoc <- fct_recode(memb_assoc,
 plot(memb_assoc)
 
 # 2. change the order of the categories in the plot
-
-
+memb_assoc <- factor(memb_assoc,
+                     levels = c("No", "Yes", "Undetermined"))
+plot(memb_assoc)
 
 
