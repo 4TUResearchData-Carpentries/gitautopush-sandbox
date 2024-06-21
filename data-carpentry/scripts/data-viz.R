@@ -50,3 +50,9 @@ interviews_plotting %>%
     height = 0.2
   )
 
+## Exercise 2
+
+interviews_plotting %>% 
+  ggplot(aes(x = village, y = rooms)) +
+    geom_violin()
+
