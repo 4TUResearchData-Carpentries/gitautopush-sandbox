@@ -6,6 +6,7 @@ format: html
 
 ```{r}
 #| label: setup
+#| include: false
 library(tidyverse)
 library(here)
 interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
@@ -45,6 +46,8 @@ Here are my favourite variables:
 ## Results
 
 ```{r}
+#| label: tbl-my-first-table
+#| echo: false
 interviews %>%
   filter(!is.na(memb_assoc)) %>% # remove NAs
   group_by(village, memb_assoc) %>% 
