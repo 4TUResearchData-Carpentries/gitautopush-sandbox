@@ -97,7 +97,8 @@ as.numeric(levels(year_fct))[year_fct] # the recommended way: first obtain facto
 memb_assoc <- interviews$memb_assoc # create a vector from the "memb_assoc" column in the interviews data
 memb_assoc <- as.factor(memb_assoc) # convert it into factor
 memb_assoc
-plot(memb_assoc)
+plot(memb_assoc) # bar plot of respondents who are members of an irrigation association
 
-
+memb_assoc <- interviews$memb_assoc
+memb_assoc[is.na(memb_assoc)] <- "undetermined" # replace the missing data with "undetermined"
 
