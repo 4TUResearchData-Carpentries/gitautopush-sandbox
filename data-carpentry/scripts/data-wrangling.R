@@ -18,3 +18,5 @@ select(interviews, village, no_membrs, months_lack_food) # select() function fro
 interviews[c("village", "no_membrs", "months_lack_food")] # select the same columns using subsetting
 select(interviews, village:respondent_wall_type) # select a series of connected columns
 
+## filter rows
+filter(interviews, village == "Chirodzo") # filter observations where village name is Chirodzo
