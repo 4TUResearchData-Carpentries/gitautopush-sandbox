@@ -46,3 +46,10 @@ interviews3 <- select(filter(interviews, village == "Chirodzo"),
 ## pipes let you take the output of one funtion to the next function
 ## shortcut: Ctrl + Shift + M and for Mac: Cmd + Shift + M
 
+interviews3_pipe <- interviews %>% # first we take the dataframe
+  filter(village == "Chirodzo") %>% # then we filter on village and send it forward
+  select(village:respondent_wall_type) # finally we select the columns
+  
+  
+
+
