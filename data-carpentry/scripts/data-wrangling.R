@@ -57,6 +57,7 @@ interviews3_pipe <- interviews %>% # first we take the dataframe
 # were members of an irrigation association (memb_assoc);
 # retain only the columns affect_conflicts, liv_count, and no_meals
 
+
   
   
 
