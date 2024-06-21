@@ -79,7 +79,8 @@ percent_wall_type %>%
   geom_col() +
   theme_minimal() +
   labs(x = "Village",
-       y = "Percent of each wall type")
+       y = "Percent of each wall type",
+       fill = "Wall type")
 ```
 
 I can refer to my table (@tbl-my-first-table) and figure (@fig-my-first-plot) in the text.
