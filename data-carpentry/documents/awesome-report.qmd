@@ -67,6 +67,8 @@ interviews %>%
 Here is a plot.
 
 ```{r}
+#| label: fig-my-first-plot
+#| echo: false
 percent_wall_type %>% 
   ggplot(aes(
     x = village, 
