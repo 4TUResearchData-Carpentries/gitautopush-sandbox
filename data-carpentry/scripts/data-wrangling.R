@@ -10,3 +10,10 @@ interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
 
 ## inspect the data
 interviews
+
+
+# selecting columns and filtering rows ------------------------------------
+
+select(interviews, village, no_membrs, months_lack_food)
+
+
