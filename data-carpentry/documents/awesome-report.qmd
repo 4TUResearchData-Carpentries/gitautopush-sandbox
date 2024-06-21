@@ -57,6 +57,7 @@ Here are my favourite variables:
 #| label: tbl-my-first-table
 #| echo: false
 #| message: false
+#| tbl-cap: "This is where my informative caption lives."
 interviews %>%
   filter(!is.na(memb_assoc)) %>% # remove NAs
   group_by(village, memb_assoc) %>% 
