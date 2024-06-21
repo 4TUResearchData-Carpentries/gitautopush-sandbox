@@ -121,5 +121,5 @@ plot(memb_assoc)
 
 # Formatting dates --------------------------------------------------------
 
-
+library(lubridate)
 
