@@ -10,6 +10,13 @@ format: html
 library(tidyverse)
 library(here)
 interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
+
+percent_wall_type <- interviews_plotting %>% 
+  filter(respondent_wall_type != "cement") %>% 
+  count(village, respondent_wall_type) %>% 
+  group_by(village) %>% 
+  mutate(percent = (n / sum(n)) * 100) %>% 
+  ungroup()
 ```
 
 # Title
