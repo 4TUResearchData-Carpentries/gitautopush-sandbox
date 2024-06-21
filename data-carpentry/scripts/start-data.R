@@ -67,3 +67,6 @@ interviews_middle <- interviews[median(1:n_rows), ]
 # Factors -----------------------------------------------------------------
 
 respondent_floor_type <- factor(c("earth", "cement", "cement", "earth")) # create a short factor
+# R will assign 1 to "cement" and 2 to "earth" (alphabetically):
+# let's have a look:
+levels(respondent_floor_type)
