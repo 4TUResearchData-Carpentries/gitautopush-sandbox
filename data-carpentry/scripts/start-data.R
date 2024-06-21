@@ -86,4 +86,8 @@ respondent_floor_type # after setting it as ordered variable
 as.character(respondent_floor_type) # convert it to character vector
 # converting factors to numeric vectors should be done in steps:
 year_fct <- factor(c(2023, 1986, 2015, 1994, 1974)) # create a factor with years
+year_fct
+as.numeric(year_fct) # look at the output, that is not what we want!
+as.numeric(as.character(year_fct)) # first convert to character, then to numeric
+as.numeric(levels(year_fct))[year_fct]
 
