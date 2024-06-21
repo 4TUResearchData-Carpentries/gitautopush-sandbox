@@ -95,4 +95,8 @@ as.numeric(levels(year_fct))[year_fct] # the recommended way: first obtain facto
 
 ## Renaming factors
 memb_assoc <- interviews$memb_assoc # create a vector from the "memb_assoc" column in the interviews data
+memb_assoc <- as.factor(memb_assoc) # convert it into factor
+
+
+
 
