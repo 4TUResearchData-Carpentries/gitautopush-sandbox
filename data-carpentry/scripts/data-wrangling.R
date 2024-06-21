@@ -86,5 +86,7 @@ interviews_total_meals <- interviews %>%
 
 # Split-apply-combine and the summarize() function ------------------------
 
-
+interviews %>% 
+  group_by(village) %>% # use a categorical variable to group the data
+  summarize(mean_no_membrs = mean(no_membrs)) # compute the average household number
 
