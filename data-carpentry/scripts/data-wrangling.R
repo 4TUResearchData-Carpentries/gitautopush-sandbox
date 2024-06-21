@@ -61,6 +61,12 @@ interviews_ex1 <- interviews %>%
   filter(memb_assoc == "yes") %>% 
   select(affect_conflicts, liv_count, no_meals)
   
+
+# Mutate() ----------------------------------------------------------------
+
+## If we want to create new columns based on existing columns, we use the mutate() function
+interviews_avg_room <- interviews %>% 
+  mutate(people_per_room = no_membrs / rooms) # average number of people per room
   
 
 
