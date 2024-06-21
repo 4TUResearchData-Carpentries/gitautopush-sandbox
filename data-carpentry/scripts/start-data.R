@@ -89,5 +89,8 @@ year_fct <- factor(c(2023, 1986, 2015, 1994, 1974)) # create a factor with years
 year_fct
 as.numeric(year_fct) # look at the output, that is not what we want!
 as.numeric(as.character(year_fct)) # first convert to character, then to numeric
-as.numeric(levels(year_fct))[year_fct]
+as.numeric(levels(year_fct))[year_fct] # the recommended way: first obtain factor levels using levels() function
+# then we convert these levels into numeric values using as.numeric
+# finally we access these numeric values using the integers inside the square brackets
+
 
