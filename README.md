@@ -1,6 +1,7 @@
 # Notes of the Software Carpentry Workshop 
 
 **When** Sep 30 - Oct 1 2024 
+
 **Where** TU Delft
 
 #### Content
