@@ -38,5 +38,6 @@ r_area <- r_length * r_width
 r_area
 
 # Functions 
+sqrt(9)
 
-
+round(3.1415)
