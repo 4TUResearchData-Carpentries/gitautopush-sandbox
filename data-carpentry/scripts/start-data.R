@@ -82,6 +82,11 @@ memb_assoc<-factor(interviews$memb_assoc)
 memb_assoc <- fct_recode(memb_assoc,Yes='yes',No='no')
 plot(memb_assoc)
 
+## Dates
 
 
+library(lubridate)
+
+# Add a new column named 'month'
+interviews$month <- month(interviews$interview_date)
 
