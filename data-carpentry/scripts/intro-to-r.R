@@ -90,3 +90,6 @@ respondent_wall_type[2:3]
 
 #subset by logical vector 
 hh_members[c(TRUE, FALSE, TRUE, TRUE)]
+
+# subset by condition 
+
