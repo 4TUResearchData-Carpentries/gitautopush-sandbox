@@ -114,3 +114,4 @@ rooms <- c(2 , 1 ,1 , NA, 7)
 mean(rooms)
 max(rooms)
 
+mean(rooms, na.rm = TRUE )
