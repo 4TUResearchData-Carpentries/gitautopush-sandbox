@@ -78,6 +78,8 @@ num_logical <- c(1, 2L, 3, TRUE)
 char_logical <- c("a", "b", "c", TRUE)
 tricky <- c(1, 2, 3, "4")
 
+# subsetting vectors 
+
 
 
 typeof(num_char)
