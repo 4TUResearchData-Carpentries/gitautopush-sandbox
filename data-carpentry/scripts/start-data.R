@@ -60,8 +60,10 @@ levels(levels_walls)
 # number of levels
 nlevels(levels_walls)
 
-# see the first level i the factor
+# see the first level in the factor
 levels(levels_walls)[1]
+
+# see the second level in the factor
 levels(levels_walls)[2]
 
 
