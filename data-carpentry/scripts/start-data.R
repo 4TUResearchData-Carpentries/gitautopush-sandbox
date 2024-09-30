@@ -42,4 +42,6 @@ interviews[,-1]
 interviews_100 <- interviews[100,]
 n_row <- nrow(interviews)
 interviews_last <- interviews[n_row,]
+interviews_tail <- interviews[(nrow(interviews)-5):nrow(interviews), ]
+interviews_head <- interviews[ -(7:n_row), ]
 
