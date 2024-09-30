@@ -94,3 +94,4 @@ hh_members[c(TRUE, FALSE, TRUE, TRUE)]
 # subset by condition 
 hh_members > 5
 
+hh_members[hh_members > 5]
