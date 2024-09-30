@@ -65,3 +65,5 @@ str(hh_members)
 possessions <- c("bicycle",
                  "radio",
                  "television")
+possessions <- c(possessions,
+                 "mobile phone")
