@@ -116,3 +116,10 @@ max(rooms)
 
 mean(rooms, na.rm = TRUE )
 
+is.na(rooms)
+
+!is.na(rooms)
+
+rooms[!is.na(rooms)]
+
+
