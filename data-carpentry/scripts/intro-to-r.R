@@ -31,3 +31,4 @@ area_hectares <- 50
 
 area_acres
 
+# exercise 1 
