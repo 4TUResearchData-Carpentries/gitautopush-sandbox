@@ -28,4 +28,11 @@ interviews[1,1]
 # Select row 1 to 3, and columns 5 up and until 6
 interviews[ 1:3 , 5:6 ]
 
+# select a full row
+interviews[1,]
 
+# Select a full column
+interviews[,1]
+
+## Select everything EXCEPT column 1
+interviews[,-1]
