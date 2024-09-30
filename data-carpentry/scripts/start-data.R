@@ -56,3 +56,5 @@ interviews_head <- interviews[ -(7:n_row), ]
 
 
 
+
+
