@@ -53,3 +53,7 @@ floor(1.624)
 
 hh_members <- c(3, 7, 10 , 6)
 hh_members
+
+respondent_wall_type  <- c("muddaub",
+                           "burntbricks",
+                           "sunbricks")
