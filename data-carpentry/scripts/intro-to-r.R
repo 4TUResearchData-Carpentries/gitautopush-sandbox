@@ -16,4 +16,6 @@ download.file("https://ndownloader.figshare.com/files/11492171",
 
 # Create an object 
 
+area_hectares <- 1
+
 
