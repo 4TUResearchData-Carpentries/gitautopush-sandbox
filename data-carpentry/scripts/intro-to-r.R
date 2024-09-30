@@ -57,3 +57,7 @@ hh_members
 respondent_wall_type  <- c("muddaub",
                            "burntbricks",
                            "sunbricks")
+length(respondent_wall_type)
+str(hh_members)
+
+#
