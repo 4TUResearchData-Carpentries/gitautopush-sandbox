@@ -122,4 +122,5 @@ is.na(rooms)
 
 rooms[!is.na(rooms)]
 
-
+rooms
+which(is.na(rooms) )
