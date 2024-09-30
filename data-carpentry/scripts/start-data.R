@@ -76,5 +76,12 @@ levels(levels_walls)
 
 plot(levels_walls)
 
+# Exercise 3
+
+memb_assoc<-factor(interviews$memb_assoc)
+memb_assoc <- fct_recode(memb_assoc,Yes='yes',No='no')
+plot(memb_assoc)
+
+
 
 
