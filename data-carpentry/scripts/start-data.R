@@ -64,9 +64,15 @@ nlevels(levels_walls)
 levels(levels_walls)[1]
 
 # see the second level in the factor
-levels(levels_walls)[2]
+levels(levels_walls)[2] 
 
+## renaming levels
+levels(levels_walls)[1] <- "Burntbricks"
+levels(levels_walls)
 
+## Second method for renaming levels
+levels_walls <- fct_recode(levels_walls,Cement='cement')
+levels(levels_walls)
 
 
 
