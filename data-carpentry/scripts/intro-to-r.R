@@ -68,3 +68,4 @@ possessions <- c("bicycle",
 possessions <- c(possessions,
                  "mobile phone")
 possessions <- c("car", possessions)
+possessions
