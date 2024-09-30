@@ -74,5 +74,7 @@ levels(levels_walls)
 levels_walls <- fct_recode(levels_walls,Cement='cement')
 levels(levels_walls)
 
+plot(levels_walls)
+
 
 
