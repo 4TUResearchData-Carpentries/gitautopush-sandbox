@@ -21,3 +21,4 @@ area_hectares
 
 area_hectares * 2.47
 
+area_hectares <- 2.5
