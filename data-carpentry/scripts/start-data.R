@@ -45,3 +45,8 @@ interviews_last <- interviews[n_row,]
 interviews_tail <- interviews[(nrow(interviews)-5):nrow(interviews), ]
 interviews_head <- interviews[ -(7:n_row), ]
 
+## Factors 
+
+
+
+
