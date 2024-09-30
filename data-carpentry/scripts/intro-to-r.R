@@ -99,3 +99,8 @@ hh_members[hh_members > 5]
 hh_members[hh_members < 4  | hh_members > 7 ]
 
 hh_members[hh_members >= 4 & hh_members <= 7 ]
+
+possessions[possessions == "car" | 
+              possessions == "bicycle"]
+
+
