@@ -36,3 +36,9 @@ interviews[,1]
 
 ## Select everything EXCEPT column 1
 interviews[,-1]
+
+# Exercise 1
+
+
+
+
