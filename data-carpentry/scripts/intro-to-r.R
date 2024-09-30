@@ -115,3 +115,4 @@ mean(rooms)
 max(rooms)
 
 mean(rooms, na.rm = TRUE )
+
