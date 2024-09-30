@@ -61,3 +61,7 @@ length(respondent_wall_type)
 str(hh_members)
 
 # Add elements to a vector
+
+possessions <- c("bicycle",
+                 "radio",
+                 "television")
