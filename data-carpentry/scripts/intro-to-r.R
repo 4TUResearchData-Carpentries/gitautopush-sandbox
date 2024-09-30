@@ -109,4 +109,4 @@ possessions[possessions %in% c("car",
                                "bicycle")]
 
 # Missing data 
-
+rooms <- c(2 , 1 ,1 , NA, 7)
