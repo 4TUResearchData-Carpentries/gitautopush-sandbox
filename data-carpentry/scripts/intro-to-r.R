@@ -51,4 +51,5 @@ floor(1.624)
 
 # Vectors 
 
-
+hh_members <- c(3, 7, 10 , 6)
+hh_members
