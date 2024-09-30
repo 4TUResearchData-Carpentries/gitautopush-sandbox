@@ -79,6 +79,7 @@ char_logical <- c("a", "b", "c", TRUE)
 tricky <- c(1, 2, 3, "4")
 
 
+
 typeof(num_char)
 typeof(num_logical)
 typeof(char_logical)
