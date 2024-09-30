@@ -92,4 +92,5 @@ respondent_wall_type[2:3]
 hh_members[c(TRUE, FALSE, TRUE, TRUE)]
 
 # subset by condition 
+hh_members > 5
 
