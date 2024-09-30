@@ -39,13 +39,17 @@ interviews[,-1]
 
 # Exercise 1
 
+#row on index 100
 interviews_100 <- interviews[100,]
+# Last row
 n_row <- nrow(interviews)
 interviews_last <- interviews[n_row,]
 interviews_tail <- interviews[(nrow(interviews)-5):nrow(interviews), ]
 interviews_head <- interviews[ -(7:n_row), ]
 
 ## Factors: for categorical variables
+
+
 
 
 
