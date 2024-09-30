@@ -51,8 +51,18 @@ interviews_head <- interviews[ -(7:n_row), ]
 
 ## Factors: for categorical variables
 
+## creation of the factor
+levels_walls <- factor(interviews$respondent_wall_type)
 
+# list of the various levels
+levels(levels_walls)
 
+# number of levels
+nlevels(levels_walls)
+
+# see the first level i the factor
+levels(levels_walls)[1]
+levels(levels_walls)[2]
 
 
 
