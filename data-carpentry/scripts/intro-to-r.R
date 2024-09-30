@@ -41,3 +41,6 @@ r_area
 sqrt(9)
 
 round(3.1415)
+args(round)
+
+round(3.1415, digits = 2)
