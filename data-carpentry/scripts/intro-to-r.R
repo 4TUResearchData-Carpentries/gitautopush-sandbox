@@ -107,3 +107,6 @@ possessions %in% c("car", "bicycle")
 
 possessions[possessions %in% c("car",
                                "bicycle")]
+
+# Missing data 
+
