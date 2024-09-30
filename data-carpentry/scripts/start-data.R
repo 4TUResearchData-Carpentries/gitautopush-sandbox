@@ -44,7 +44,9 @@ interviews_100 <- interviews[100,]
 # Last row
 n_row <- nrow(interviews)
 interviews_last <- interviews[n_row,]
+# last 6 rows
 interviews_tail <- interviews[(nrow(interviews)-5):nrow(interviews), ]
+# first 6 rows
 interviews_head <- interviews[ -(7:n_row), ]
 
 ## Factors: for categorical variables
