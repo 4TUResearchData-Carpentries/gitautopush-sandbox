@@ -84,6 +84,8 @@ typeof(char_logical)
 typeof(tricky)
 # subsetting vectors 
 
-respondent_wall_type
+respondent_wall_type[2]
+respondent_wall_type[c(1,3)]
+respondent_wall_type[2:3]
 
 
