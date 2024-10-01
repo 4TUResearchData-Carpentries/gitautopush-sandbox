@@ -72,6 +72,9 @@ interviews_avg_room <- interviews %>%
 ## if is.na() returns TRUE (because memb_assoc is missing) the ! symbol negates this and says:
 ## only use values of FALSE (where memb_assoc is not missing)
 
+# Exercise 2 --------------------------------------------------------------
+
+
 
 
 
