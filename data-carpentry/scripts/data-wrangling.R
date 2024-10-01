@@ -68,6 +68,9 @@ interviews_avg_room <- interviews %>%
 interviews_avg_room <- interviews %>% 
   filter(!is.na(memb_assoc)) %>% # remove respondents with missing association membership data
   mutate(people_per_room = no_membrs / rooms)
+## some more info on the filter: ! symbol negates the result of the is.na() function:
+## if is.na() returns TRUE (because memb_assoc is missing) the ! symbol negates this and says:
+## only use values of FALSE (where memb_assoc is not missing)
 
 
 
