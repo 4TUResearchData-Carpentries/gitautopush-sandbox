@@ -51,6 +51,8 @@ Nested items:
 
 ## Results
 
+This report was last rendered on `r Sys.Date()`.
+
 ```{r}
 #| label: tbl-mean-members
 #| echo: false
