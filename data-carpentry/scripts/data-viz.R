@@ -10,7 +10,18 @@ interviews_plotting <- read_csv(here("data_output/interviews_plotting.csv"))
 #   <GEOM_FUNCTION>() +
 #   <CUSTOMISATION>
 
+# create a basic scatter plot with no_membrs on x and number_items on y
+
 interviews_plotting %>% 
-  ggplot(mapping = aes(x = no_membrs, y = number_items))
+  ggplot(mapping = aes(x = no_membrs, y = number_items)) +
+    geom_point()
+
+
+
+
+
+
+
+
 
 
