@@ -59,6 +59,15 @@ interviews4 <- interviews %>%
   select(affect_conflicts, liv_count, no_meals)
 
 
+# Mutate() ----------------------------------------------------------------
+
+## If we want to create new columns based on existing columns, we use the mutate() function
+
+
+
+
+
+
 
 
 
