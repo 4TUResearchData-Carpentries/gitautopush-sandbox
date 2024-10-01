@@ -12,3 +12,9 @@ interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
 interviews
 
 # selecting columns and filtering rows ------------
+select(interviews, village, no_membrs, months_lack_food) # select() function from dplyr to select columns from a dataframe
+
+
+
+
+
