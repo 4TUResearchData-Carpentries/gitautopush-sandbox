@@ -30,7 +30,7 @@ interviews_plotting %>%
 # map a variable to the colour aesthetic
 
 interviews_plotting %>% 
-  ggplot(aes(x = no_membrs, y = number_items, colour = village)) +
+  ggplot(aes(x = no_membrs, y = number_items, colour = village)) + # colour added to aes() instead of geom_*()
     geom_count()
 
 
