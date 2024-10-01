@@ -25,7 +25,9 @@ filter(interviews, village == "Chirodzo" &
 
 ## select rows based on an "OR" statement (| logical operator - vertical bar)
 # where at least one of the conditions must be met
-filter(interviews, village == "Chirodzo" | village == "Ruaca")
+filter(interviews, village == "Chirodzo" | village == "Ruaca") # filter observations satisfying one of these two criteria
+
+
 
 
 
