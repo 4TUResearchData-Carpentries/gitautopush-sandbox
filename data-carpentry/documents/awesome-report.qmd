@@ -54,6 +54,7 @@ Nested items:
 ```{r}
 #| label: tbl-mean-members
 #| echo: false
+#| message: false
 interviews %>% 
   filter(!is.na(memb_assoc)) %>% 
   group_by(village, memb_assoc) %>% 
