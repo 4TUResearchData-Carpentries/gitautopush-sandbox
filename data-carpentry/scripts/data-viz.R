@@ -77,13 +77,20 @@ interviews_plotting %>%
 # standardise counts to compare across villages
   # more wrangling
 
-interviews_plotting %>% 
+percent_wall_type <- interviews_plotting %>% 
   filter(respondent_wall_type != "cement") %>% # take cement out (it's useless)
   count(village, respondent_wall_type) %>% # count the number of village and wall type per village
   group_by(village) %>% # group by village to calculate percentage of each wall type within each village
   mutate(percent = (n / sum(n) * 100)) %>% # percentage of each wall type within all wall types in village
   ungroup()
 
+# use our new data frame!
 
+percent_wall_type %>% 
+  ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
+  geom_bar(stat = "identity") # option one to add a y-axis
 
+percent_wall_type %>% 
+  ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
+  geom_col(position = "dodge") # option two to add a y-axis
 
