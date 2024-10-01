@@ -62,7 +62,7 @@ interviews4 <- interviews %>%
 # Mutate() ----------------------------------------------------------------
 
 ## If we want to create new columns based on existing columns, we use the mutate() function
-
+interviews_avg_room <- interviews %>% 
 
 
 
