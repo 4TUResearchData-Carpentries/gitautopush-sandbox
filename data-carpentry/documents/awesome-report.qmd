@@ -11,6 +11,13 @@ library(tidyverse)
 library(here)
 
 interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
+
+percent_wall_type <- interviews_plotting %>% 
+  filter(respondent_wall_type != "cement") %>% # take cement out (it's useless)
+  count(village, respondent_wall_type) %>% # count the number of village and wall type per village
+  group_by(village) %>% # group by village to calculate percentage of each wall type within each village
+  mutate(percent = (n / sum(n) * 100)) %>% # percentage of each wall type within all wall types in village
+  ungroup()
 ```
 
 
@@ -67,5 +74,19 @@ interviews %>%
   )
 ```
 
+Here is a figure proving everything!
+
+```{r}
+percent_wall_type %>% 
+  ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
+  geom_col(position = "dodge") +
+  labs(x = "Village", y = "Percent Wall Type", fill = "Respondent Wall Type") +
+  theme_minimal() +
+  theme(
+    panel.grid.major.x = element_blank(),
+    text = element_text(size = 16),
+    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1)
+    ) # remove vertical gridlines
+```
 
 
