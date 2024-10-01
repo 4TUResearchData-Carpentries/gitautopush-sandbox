@@ -32,6 +32,13 @@ Ordered list:
 2. years_liv
 3. rooms
 
+Nested items:
+
+- village
+  + Name of village
+- no_members
+  * How many family members lived in a house
+
 
 
 
