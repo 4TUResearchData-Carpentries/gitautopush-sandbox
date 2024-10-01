@@ -31,7 +31,8 @@ filter(interviews, village == "Chirodzo" | village == "Ruaca") # filter observat
 
 ## we want to select and filter at the same time
 ## We can use multiple steps
-
+interviews2 <- filter(interviews, village == "Chirodzo") # we make a new dataframe to filter on village
+interviews3 <- select(interviews2, village:respondent_wall_type) # next, we select a number of columns from the new dataframe
 
 
 
