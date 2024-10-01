@@ -53,8 +53,9 @@ interviews_plotting %>%
 
 interviews_plotting %>% 
   ggplot(aes(x = village, y = rooms)) +
-  geom_violin() +
-  geom_jitter(
+  geom_violin() + # add a violin plot
+  geom_boxplot(width = 0.2) + # pput a boxplot on top
+  geom_jitter( # and jitter on top of that
     colour = "tomato",
     alpha = 0.3,
     width = 0.2,
