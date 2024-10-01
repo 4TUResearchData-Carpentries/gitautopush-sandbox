@@ -11,6 +11,7 @@ library(tidyverse)
 library(here)
 
 interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
+interviews_plotting <- read_csv(here("data_output/interviews_plotting.csv"))
 
 percent_wall_type <- interviews_plotting %>% 
   filter(respondent_wall_type != "cement") %>% # take cement out (it's useless)
