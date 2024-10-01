@@ -54,7 +54,9 @@ interviews3_pipe <- interviews %>% # first we take the dataframe
 # were member of an irrigation association (memb_assoc);
 # retain only the columns affect_conflicts, liv_count, and no_meals
 
-
+interviews4 <- interviews %>% 
+  filter(memb_assoc == "yes") %>% 
+  select(affect_conflicts, liv_count, no_meals)
 
 
 
