@@ -22,6 +22,8 @@ percent_wall_type <- interviews_plotting %>%
 ```
 
 
+
+
 <!--
 # Title
 ## Section
@@ -61,6 +63,8 @@ Nested items:
 
 This report was last rendered on `r Sys.Date()`.
 
+
+
 ```{r}
 #| label: tbl-mean-members
 #| echo: false
@@ -75,7 +79,11 @@ interviews %>%
   )
 ```
 
+
+
 Here is @fig-my-first-plot. It proves everything! (so does @tbl-mean-members)
+
+
 
 ```{r}
 #| label: fig-my-first-plot
@@ -92,5 +100,4 @@ percent_wall_type %>%
     axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1)
     ) # remove vertical gridlines
 ```
-
 
