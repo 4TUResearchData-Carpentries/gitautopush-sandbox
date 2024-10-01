@@ -51,5 +51,15 @@ interviews_plotting %>%
     height = 0.2
   )
 
+interviews_plotting %>% 
+  ggplot(aes(x = village, y = rooms)) +
+  geom_violin() +
+  geom_jitter(
+    colour = "tomato",
+    alpha = 0.3,
+    width = 0.2,
+    height = 0.2
+  )
+
 
 
