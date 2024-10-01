@@ -34,7 +34,10 @@ filter(interviews, village == "Chirodzo" | village == "Ruaca") # filter observat
 interviews2 <- filter(interviews, village == "Chirodzo") # we make a new dataframe to filter on village
 interviews3 <- select(interviews2, village:respondent_wall_type) # next, we select a number of columns from the new dataframe
 
-
+## another option is to nest functions:
+interviews3 <- select(filter(interviews, village == "Chirodzo"),
+                      village:respondent_wall_type) ## downsides of nesting: difficult to read
+# 
 
 
 
