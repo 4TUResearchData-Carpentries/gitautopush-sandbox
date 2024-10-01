@@ -14,7 +14,7 @@ interviews
 # selecting columns and filtering rows ------------
 select(interviews, village, no_membrs, months_lack_food) # select() function from dplyr to select columns from a dataframe
 interviews[c("village", "no_membrs", "months_lack_food")] # select the same columns using subsetting
-
+select(interviews, village:respondent_wall_type) # select a series of connected columns
 
 
 
