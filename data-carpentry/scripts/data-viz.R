@@ -21,11 +21,19 @@ interviews_plotting %>%
 interviews_plotting %>% 
   ggplot(mapping = aes(x = no_membrs, y = number_items)) +
     geom_jitter(
-      colour = "chocolate", # colour of all points
+      colour = "#00A6D6", # colour of all points
       alpha = 0.3, # set level of opacity (0-1)
       width = 0.2, # random noise on x-axis added to each point
       height = 0.2 # random noise on y-axis added to each point
     )
+
+# map a variable to the colour aesthetic
+
+interviews_plotting %>% 
+  ggplot(aes(x = no_membrs, y = number_items, colour = village)) +
+    geom_count()
+
+
 
 
 
