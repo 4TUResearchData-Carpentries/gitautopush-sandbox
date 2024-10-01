@@ -86,6 +86,10 @@ interviews %>%
   group_by(village, memb_assoc) %>% # use one or more categorical variables to group the data
   summarise(mean_no_membrs = mean(no_membrs)) # compute the average household number
 
+## after grouping, it is also possible to summarize multiple values
+interviews %>% 
+  filter(!is.na(memb_assoc)) %>% 
+  group_by(village, memb_assoc) %>% 
 
 
 
