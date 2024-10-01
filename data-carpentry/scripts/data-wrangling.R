@@ -63,6 +63,7 @@ interviews4 <- interviews %>%
 
 ## If we want to create new columns based on existing columns, we use the mutate() function
 interviews_avg_room <- interviews %>% 
+  mutate(people_per_room = no_membrs / rooms) # average number of people per room
 
 
 
