@@ -74,7 +74,10 @@ interviews_avg_room <- interviews %>%
 
 # Exercise 2 --------------------------------------------------------------
 
-
+interviews_total_meals <- interviews %>% 
+  mutate(total_meals = no_membrs * no_meals) %>% 
+  filter(total_meals > 20) %>% 
+  select(village, total_meals)
 
 
 
