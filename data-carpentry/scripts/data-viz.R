@@ -69,11 +69,10 @@ interviews_plotting %>%
   ggplot(aes(x = respondent_wall_type, fill = village)) + # only x variable needed (colour with fill argument)
     geom_bar()
 
-# create a 'dodge'? bar plot
+# create a 'dodge'? parallel? side-by-side? split? bar plot
 interviews_plotting %>% 
   ggplot(aes(x = respondent_wall_type, fill = village)) +
     geom_bar(position = "dodge")
-
 
 
 
