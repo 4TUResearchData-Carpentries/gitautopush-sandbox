@@ -64,6 +64,7 @@ interviews_plotting %>%
 
 # Bar plots
 
+# adding colour will create a stacked bar plot
 interviews_plotting %>% 
   ggplot(aes(x = respondent_wall_type, fill = village)) + # only x variable needed (colour with fill argument)
     geom_bar()
