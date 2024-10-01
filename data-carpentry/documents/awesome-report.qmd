@@ -16,7 +16,8 @@ This is regular text.
 
 ## Introduction
 
-This ***report*** uses the **tidyverse** package along with the *SAFI* dataset, which has columns that include:
+This ***report*** uses the **tidyverse** package along with the *SAFI* dataset,
+which has columns that include:
 
 
 
