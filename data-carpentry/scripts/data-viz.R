@@ -33,11 +33,23 @@ interviews_plotting %>%
   ggplot(aes(x = no_membrs, y = number_items, colour = village)) + # colour added to aes() instead of geom_*()
     geom_count()
 
+## Exercise 1
 
+interviews_plotting %>%
+  ggplot(aes(x = village, y = rooms, colour = respondent_wall_type)) +
+  geom_jitter()
 
+# categorical and numeric variables
 
-
-
+interviews_plotting %>% 
+  ggplot(aes(x = village, y = rooms)) +
+  geom_boxplot() +
+  geom_jitter(
+    colour = "tomato",
+    alpha = 0.3,
+    width = 0.2,
+    height = 0.2
+  )
 
 
 
