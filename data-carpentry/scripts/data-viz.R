@@ -94,3 +94,21 @@ percent_wall_type %>%
   ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
   geom_col(position = "dodge") # option two to add a y-axis
 
+# Looks good, let's make it look awesome!
+
+percent_wall_type %>% 
+  ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
+  geom_col(position = "dodge") +
+  labs(x = "Village", y = "Percent Wall Type", fill = "Respondent Wall Type") +
+  theme_minimal() +
+  theme(
+    panel.grid.major.x = element_blank(),
+    text = element_text(size = 16),
+    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1)
+    ) # remove vertical gridlines
+
+# Export the plot
+
+ggsave("fig_output/my-first-plot.png")
+
+
