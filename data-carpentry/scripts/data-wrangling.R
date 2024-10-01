@@ -48,6 +48,16 @@ interviews3_pipe <- interviews %>% # first we take the dataframe
   select(village:respondent_wall_type) # finally we select the columns
 
 
+# Exercise 1 --------------------------------------------------------------
+
+# subset the interviews data to include interviews where respondents
+# were member of an irrigation association (memb_assoc);
+# retain only the columns affect_conflicts, liv_count, and no_meals
+
+
+
+
+
 
 
 
