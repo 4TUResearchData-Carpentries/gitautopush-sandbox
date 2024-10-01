@@ -26,6 +26,8 @@ which has columns that include:
 - respondent_wall_type
 - rooms
 
+Ordered list:
+
 1. village
 2. years_liv
 3. rooms
