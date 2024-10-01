@@ -27,6 +27,11 @@ filter(interviews, village == "Chirodzo" &
 # where at least one of the conditions must be met
 filter(interviews, village == "Chirodzo" | village == "Ruaca") # filter observations satisfying one of these two criteria
 
+# Pipes -------------------------------------------------------------------
+
+## we want to select and filter at the same time
+## We can use multiple steps
+
 
 
 
