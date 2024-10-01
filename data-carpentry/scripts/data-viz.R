@@ -62,5 +62,10 @@ interviews_plotting %>%
     height = 0.2
   )
 
+# Bar plots
+
+interviews_plotting %>% 
+  ggplot(aes(x = respondent_wall_type, fill = village)) + # only x variable needed (colour with fill argument)
+    geom_bar()
 
 
